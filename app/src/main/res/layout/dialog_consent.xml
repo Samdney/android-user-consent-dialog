@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffffff">
+    <ScrollView android:id="@+id/consentDialogScrollview"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/textViewTitle_consentDialog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="11dp"
+                android:layout_marginRight="11dp"
+                android:layout_marginBottom="20dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:text="@string/message_consentDialogTitle"
+                android:layout_centerHorizontal="true"
+                android:gravity="center_horizontal" />
+            <TextView
+                android:id="@+id/textView_consentDialogScrollDown"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="11dp"
+                android:layout_marginRight="11dp"
+                android:layout_marginBottom="20dp"
+                android:textSize="10sp"
+                android:textColor="@color/red"
+                android:text="@string/message_consentDialogScrollDown"
+                android:layout_centerHorizontal="true"
+                android:gravity="center_horizontal" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+            <WebView
+                android:id="@+id/webViewPrivacyPolicy_consentDialog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginBottom="20dp"
+                android:textSize="8dp"
+                android:layout_centerHorizontal="true"
+                android:gravity="center_horizontal" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+            <WebView
+                android:id="@+id/webViewCookiePolicy_consentDialog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginBottom="20dp"
+                android:textSize="8dp"
+                android:layout_centerHorizontal="true"
+                android:gravity="center_horizontal" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+            <TextView
+                android:id="@+id/textView_consentDialogSettingsTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="11dp"
+                android:layout_marginRight="11dp"
+                android:layout_marginBottom="5dp"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:text="@string/message_consentDialogSettingsTitle"
+                android:layout_centerHorizontal="true"
+                android:gravity="center_horizontal" />
+            <TextView
+                android:id="@+id/textView_consentDialogSettingsAdsInfoTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="11dp"
+                android:layout_marginRight="11dp"
+                android:layout_marginBottom="5dp"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:text="@string/message_consentDialogSettingsAdsInfoTitle" />
+            <TextView
+                android:id="@+id/textView_consentDialogSettingsAdsInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="11dp"
+                android:layout_marginRight="11dp"
+                android:layout_marginBottom="5dp"
+                android:textSize="10dp"
+                android:text="@string/message_consentDialogSettingsAdsInfo" />
+            <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/radio_Ads"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:padding="10dp"
+                android:orientation="vertical">
+                <RadioButton android:id="@+id/radio_Ads_option01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="10sp"
+                    android:text="@string/consentDialog_Ads_option01" />
+                <RadioButton android:id="@+id/radio_Ads_option02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="10sp"
+                    android:text="@string/consentDialog_Ads_option02" />
+            </RadioGroup>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="11dp"
+                android:layout_marginRight="11dp"
+                android:background="@android:color/darker_gray"/>
+            <TextView
+                android:id="@+id/textView_consentDialogSettingsFirebaseAnalyticsInfoTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="11dp"
+                android:layout_marginRight="11dp"
+                android:layout_marginBottom="5dp"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:text="@string/message_consentDialogSettingsFirebaseAnalyticsInfoTitle" />
+            <TextView
+                android:id="@+id/textView_consentDialogSettingsFirebaseAnalyticsInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="11dp"
+                android:layout_marginRight="11dp"
+                android:layout_marginBottom="5dp"
+                android:textSize="10dp"
+                android:text="@string/message_consentDialogSettingsFirebaseAnalyticsInfo" />
+            <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/radio_FirebaseAnalytics"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:padding="10dp"
+                android:orientation="vertical">
+                <RadioButton android:id="@+id/radio_FirebaseAnalytics_option01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="10sp"
+                    android:text="@string/consentDialog_FirebaseAnalytics_option01" />
+                <RadioButton android:id="@+id/radio_FirebaseAnalytics_option02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="10sp"
+                    android:text="@string/consentDialog_FirebaseAnalytics_option02" />
+            </RadioGroup>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+            <LinearLayout android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:padding="20dp">
+                <Button
+                    android:id="@+id/buttonNegative_consentDialog"
+                    android:layout_width="120dp"
+                    android:layout_height="70dp"
+                    android:text="@string/button_cancel"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:layout_below="@+id/extView_consentDialog"
+                    android:layout_marginBottom="20dp"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="@android:color/black" />
+                <Button
+                    android:id="@+id/buttonPositive_consentDialog"
+                    android:layout_width="120dp"
+                    android:layout_height="70dp"
+                    android:text="@string/button_acceptAndApply"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:layout_below="@+id/extView_consentDialog"
+                    android:layout_marginBottom="20dp"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="@android:color/black" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

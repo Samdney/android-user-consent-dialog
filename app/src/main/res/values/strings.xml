@@ -1,0 +1,27 @@
+<resources>
+    <!-- general -->
+    <string name="app_name">User Consent Dialog</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="your_content">Your content</string>
+    <string name="menu_title">Settings</string>
+    <string name="menu_entry">Privacy Settings</string>
+
+    <!-- consent dialog -->
+    <string name="message_consentDialogTitle">Privacy Settings</string>
+    <string name="message_consentDialogScrollDown">Scroll down for Cookie Policy and Settings</string>
+    <string name="message_consentDialogSettingsTitle">Settings</string>
+    <string name="message_consentDialogSettingsAdsInfoTitle">Ads</string>
+    <string name="message_consentDialogSettingsAdsInfo">Decide if you want to get Personalized Ads or Non-Personalized Ads.</string>
+    <string name="consentDialog_Ads_option01">Personalized Ads</string>
+    <string name="consentDialog_Ads_option02">Non-Personalized Ads.</string>
+    <string name="message_consentDialogSettingsFirebaseAnalyticsInfoTitle">Firebase Analytics</string>
+    <string name="message_consentDialogSettingsFirebaseAnalyticsInfo">Decide if you want to Turn On or to Turn Off Firebase Analytics.</string>
+    <string name="consentDialog_FirebaseAnalytics_option01">Turn On Firebase Analytics</string>
+    <string name="consentDialog_FirebaseAnalytics_option02">Turn Off Firebase Analytics</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_acceptAndApply">Accept and Apply</string>
+</resources>

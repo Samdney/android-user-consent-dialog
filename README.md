@@ -9,6 +9,26 @@ by the app menu.
 The dialog contains a privacy policy, cookie policy and the settings for personalized/non-personlized ads respectively turning on/off of
 Firebase analytics.
 
+## How it works ...
+A short explanation about running the app and how it works.
+
+### Running the app for the first time
+If you run the app for the first time, at all, the user consent dialog appears:  
+
+<p align="center"> 
+<img src="screenshots/Screenshot_ConsentDialogPolicy.png" height="75%">
+</p>
+
+See sample app doesn't have any law text. You have to add your own text here.
+If you scroll down, you reach the settings section, where the user can set
+their prefered settings for personalized/non-personlized ads respectively turning on/off of
+Firebase analytics.
+
+<p align="center">         
+<img src="screenshots/Screenshot_ConsentDialogPrivacyDefaultSettings.png" height="75%">
+</p>
+
+
 
 ## Implementation
 

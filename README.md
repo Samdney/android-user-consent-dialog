@@ -16,7 +16,7 @@ A short explanation about running the app and how it works.
 If you run the app for the first time, at all, the user consent dialog appears:  
 
 <p align="center"> 
-<img src="screenshots/Screenshot_ConsentDialogPolicy.png" height="75%">
+<img src="screenshots/Screenshot_ConsentDialogPolicy_small.png" height="75%">
 </p>
 
 See sample app doesn't have any law text. You have to add your own text here.
@@ -25,7 +25,7 @@ their prefered settings for personalized/non-personlized ads respectively turnin
 Firebase analytics.
 
 <p align="center">         
-<img src="screenshots/Screenshot_ConsentDialogPrivacyDefaultSettings.png" height="75%">
+<img src="screenshots/Screenshot_ConsentDialogPrivacyDefaultSettings_small.png" height="75%">
 </p>
 
 
